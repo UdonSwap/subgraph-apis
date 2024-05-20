@@ -125,12 +125,15 @@ query MyQuery {
       amountUSD
       token0 {
         symbol
+        id
       }
       token1 {
         symbol
+        id
       }
       timestamp
       origin
+      id
     }
     mints {
       amount0
@@ -138,12 +141,15 @@ query MyQuery {
       amountUSD
       token0 {
         symbol
+        id
       }
       token1 {
         symbol
+        id
       }
       timestamp
       origin
+      id
     }
     swaps {
       amount0
@@ -151,12 +157,15 @@ query MyQuery {
       amountUSD
       token0 {
         symbol
+        id
       }
       token1 {
         symbol
+        id
       }
       timestamp
       origin
+      id
     }
   }
 }
