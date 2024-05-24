@@ -182,3 +182,23 @@ query MyQuery {
   }
 }
 ```
+
+API consists of 3 endpoints
+
+## api to get top pools
+
+```curl
+curl --location 'http://localhost:3003/testing/getTopPools'
+```
+
+## api to get getTvlAndVolume
+
+```curl
+curl --location 'http://localhost:3003/testing/getTvlAndVolume'
+```
+
+## api to get getTransactions
+
+```curl
+curl --location 'http://localhost:3003/testing/getTvlAndVolume'
+```

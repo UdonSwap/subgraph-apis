@@ -3,7 +3,7 @@ const fetchGraphQLData = require("./utils/fetchGraphQLData");
 const getTvlAndVolume = async (network) => {
   const query = `
   query MyQuery {
-    uniswapDayDatas(first: 100) {
+    uniswapDayDatas{
       tvlUSD
       volumeUSD
       date

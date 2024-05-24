@@ -6,6 +6,10 @@ const { getTransactions } = require("./fetch/transactions");
 const app = express();
 const PORT = process.env.PORT || 3003;
 
+app.get("/", (req, res) => {
+  res.send("Welcome to udonswap graph APIs");
+});
+
 app.get("/:network/getTopPools", async (req, res) => {
   const network = req.params.network; // Capture network from the URL
 
